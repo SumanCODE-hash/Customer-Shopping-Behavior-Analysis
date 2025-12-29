@@ -1,12 +1,12 @@
 # 🛒 Customer Shopping Behavior Analysis
 
 ## 📌 Project Overview
-This project presents an end-to-end analysis of retail customer shopping behavior to uncover purchasing trends, revenue drivers, and loyalty patterns. By combining Python, SQL, and Power BI, the analysis delivers actionable insights to support data-driven marketing, customer engagement, and business growth strategies.
+This project delivers an end-to-end analysis of retail customer shopping behavior to uncover purchasing trends, key revenue drivers, and loyalty patterns. Using Python, SQL, and Power BI, the project translates raw transactional data into actionable insights supported by a detailed report and stakeholder-ready presentation.
 
 ---
 
 ## 🎯 Business Objective
-To leverage consumer shopping data to identify trends, understand customer behavior, and optimize marketing and product strategies that improve sales performance and long-term customer retention.
+To leverage consumer shopping data to identify trends, improve customer engagement, and optimize marketing and product strategies that enhance sales performance and long-term customer retention.
 
 ---
 
@@ -14,59 +14,53 @@ To leverage consumer shopping data to identify trends, understand customer behav
 - **Total Records:** 3,900 customer transactions  
 - **Total Features:** 18 variables  
 - **Key Dimensions:**  
-  - Demographics (Age, Gender, Location)  
-  - Transactions (Category, Item Purchased, Purchase Amount)  
-  - Behavior (Review Rating, Purchase Frequency, Previous Purchases)  
-  - Logistics & Incentives (Shipping Type, Discounts, Subscription Status)  
-- **Data Quality:** Minimal missing values, handled using group-wise median imputation  
+  - **Demographics:** Age, Gender, Location  
+  - **Transactional:** Item Purchased, Category, Purchase Amount  
+  - **Behavioral:** Review Rating, Purchase Frequency, Previous Purchases  
+  - **Logistics & Incentives:** Shipping Type, Discounts, Subscription Status  
+- **Data Quality:** Minimal missing values, resolved using group-wise median imputation  
 
 ---
 
 ## 🧠 Project Workflow
 
 ### 1️⃣ Data Preparation & Feature Engineering (Python)
-- Data loading, validation, and exploratory analysis
-- Missing value treatment and column standardization
+- Data ingestion, validation, and exploratory analysis
+- Handling missing values and standardizing column names
 - Feature engineering (age groups, purchase frequency)
-- Data loading into PostgreSQL
+- Loading cleaned data into PostgreSQL for analysis
 
 ### 2️⃣ Business Analysis (SQL)
-- Customer segmentation and loyalty analysis
-- Revenue and discount impact analysis
-- Product performance and rating benchmarks
-- Subscription and shipping method comparisons
+- Customer segmentation and lifecycle analysis
+- Revenue contribution and discount impact assessment
+- Product performance and customer satisfaction benchmarking
+- Subscription and shipping method performance comparison
 
-### 3️⃣ Visualization & Dashboarding (Power BI)
-- Interactive dashboards highlighting key trends
-- Demographic and category-level revenue insights
-- Customer retention and discount sensitivity analysis
+### 3️⃣ Visualization & Insights (Power BI)
+- Interactive dashboards highlighting key trends and KPIs
+- Demographic, category, and loyalty-based insights
+- Decision-ready visuals for business stakeholders
+
+### 4️⃣ Reporting & Presentation
+- Comprehensive analytical report summarizing findings and insights
+- Executive-style presentation translating analysis into actionable business recommendations
 
 ---
 
 ## 📈 Key Insights
-- High-value customers show strong repeat purchase behavior but low subscription adoption
-- Discount sensitivity varies significantly by product category
-- Express shipping users demonstrate higher average order value
-- Revenue contribution is highest among middle-age customer segments
+- A large share of repeat customers are not subscribed, indicating retention opportunities
+- Discount sensitivity varies across product categories
+- Premium shipping users demonstrate higher average order values
+- Revenue is strongest among mid-age customer segments
 
 ---
 
 ## 💡 Business Recommendations
-- Launch targeted loyalty conversion campaigns
-- Optimize discount strategies for high-elasticity products
-- Promote top-rated products to build customer trust
-- Incentivize premium shipping for larger basket sizes
+- Implement targeted loyalty conversion campaigns
+- Apply strategic discounting to high-elasticity products
+- Promote top-rated products to increase customer trust
+- Incentivize premium shipping to increase basket size
 
 ---
-
-## 🛠️ Tech Stack
-- **Python:** Pandas, NumPy  
-- **SQL:** PostgreSQL  
-- **Visualization:** Power BI  
-- **Version Control:** Git & GitHub  
-
----
-
 ## 🚀 Outcome
-This project demonstrates a complete analytics lifecycle, from raw data preparation to executive-level insights, showcasing strong skills in data analysis, SQL querying, and dashboard storytelling.
-
+This project demonstrates a complete analytics lifecycle—from data preparation to executive communication—showcasing strong analytical, business reasoning, and data storytelling skills relevant for Data Analyst and Business Analyst roles.
